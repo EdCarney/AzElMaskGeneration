@@ -1,5 +1,5 @@
 # Overview
-This script creates azimuth-elevation mask files for clamshell-stype encolsures. The mask files are based on AGI's STK *.aem format.
+This script creates azimuth-elevation mask files for clamshell-type enclosures. The mask files are based on AGI's STK *.aem format.
 
 # Setup
 ## Prerequisites
@@ -19,9 +19,9 @@ git clone https://github.com/EdCarney/AzElMaskGeneration.git
 # Using the Script
 ## Configuration
 The script is configured via the `config.xml` file located in the `conf` directory. This file is used to set the following parameters:
-* **Pivot Azimuth**: The orienation of the clamshell roof shutter hinge. This is measured in degrees clockwise from North.
-* **Right Shutter Elevation**: The elevation of the right shutter measured in degrees. 'Right' is defined as the eastern shutter for a pivot azimuth of zero. An elevation of zero corresponds to the shutter being completely open; an elevation of 90 degrees corresponds to the shutter beign completely closed (i.e. vertical).
-* **Left Shutter Elevation**: The elevation of the left shutter measured in degrees. 'Left' is defined as the western shutter for a pivot azimuth of zero. An elevation of zero corresponds to the shutter being completely open; an elevation of 90 degrees corresponds to the shutter beign completely closed (i.e. vertical).
+* **Pivot Azimuth**: The orientation of the clamshell roof shutter hinge. This is measured in degrees clockwise from North.
+* **Right Shutter Elevation**: The elevation of the right shutter measured in degrees. 'Right' is defined as the eastern shutter for a pivot azimuth of zero. An elevation of zero corresponds to the shutter being completely open; an elevation of 90 degrees corresponds to the shutter being completely closed (i.e. vertical).
+* **Left Shutter Elevation**: The elevation of the left shutter measured in degrees. 'Left' is defined as the western shutter for a pivot azimuth of zero. An elevation of zero corresponds to the shutter being completely open; an elevation of 90 degrees corresponds to the shutter being completely closed (i.e. vertical).
 * **Output File Name**: The name of the azimuth-elevation file that will be created by the script.
 
 The below example demonstrates the right and left shutter elevations for a pivot azimuth of zero. 
