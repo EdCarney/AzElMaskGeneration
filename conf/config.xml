@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configs>
+
+	<!-- Define parameters for clamshell roof opening -->
+
+	<!--
+        Pivot azimuth defines the orientation of the clamshell hinge. It is defined as degrees measure clockwise from North.
+        An azimuth of zero implies the hinge algins with the North-South line, an azimuth of 90 implies the hinge aligns with
+        the West-East line.
+     -->
+    <pivotAzimuth>0</pivotAzimuth>
+
+    <!--
+        The left and right shutter elevations define the elevation angle of the clamshell shutters. With a pivot azimuth of zero,
+        the left shutter corresponds to the western shutter and the right shutter corresponds to the eastern shutter.
+    -->
+    <shutterElevation_right>15.0</shutterElevation_right>
+    <shutterElevation_left>25.0</shutterElevation_left>
+
+    <!--
+        The file name specifies the name of the az-el file that will be created.
+    -->
+    <fileName>testFile.aem</fileName>
+
+</configs>
