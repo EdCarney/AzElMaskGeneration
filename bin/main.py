@@ -27,4 +27,4 @@ if __name__ == "__main__":
         float(configDict['shutterElevation_left'])
         )
 
-    handler.printToFile(path + "\\..\\" + configDict['fileName'])
+    handler.printToFile(dir_path + "\\..\\" + configDict['fileName'])
