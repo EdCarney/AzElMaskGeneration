@@ -95,8 +95,10 @@ class MaskHandler():
 
         with open(fileName, 'w') as outFile:
             # write out default file header data
-            outFile.write("stk.v.11.2.1\nBEGIN AzElMask\nNumberOfPoints {0}\nBEGIN AzElMaskData\n".format(int(self._fidelity + 1)))
+            outFile.write("stk.v.11.2.1\nBEGIN AzElMask\nNumberOfPoints {0}\nBEGIN AzElMaskData\n\n".format(int(self._fidelity + 1)))
 
             # write out actual data
             for i in range(self._fidelity + 1):
                 outFile.write("{0} {1}\n".format(self.az[i], self.el[i]))
+
+            outFile.write("\nEND AzElMaskData\nEND AzElMask")
