@@ -15,7 +15,7 @@
         the left shutter corresponds to the western shutter and the right shutter corresponds to the eastern shutter.
     -->
     <shutterElevation_right>15.0</shutterElevation_right>
-    <shutterElevation_left>25.0</shutterElevation_left>
+    <shutterElevation_left>50.0</shutterElevation_left>
 
     <!--
         The file name specifies the name of the az-el file that will be created.

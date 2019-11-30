@@ -101,4 +101,5 @@ class MaskHandler():
             for i in range(self._fidelity + 1):
                 outFile.write("{0} {1}\n".format(self.az[i], self.el[i]))
 
-            outFile.write("\nEND AzElMaskData\nEND AzElMask")
+            # note do NOT add these lines to the end or else things break
+            # outFile.write("\nEND AzElMaskData\nEND AzElMask")
