@@ -36,5 +36,5 @@ The below example demonstrates a nonzero pivot azimuth case.
 To execute the script, run the `createMask` Batch file. The azimuth-elevation file will be created in the top-level directory for the repository.
 
 
-[zero_pivot_angle]: images\zero_pivot_angle.png#thumbnail "Zero Pivot Angle"
-[nonzero_pivot_angle]: images\nonzero_pivot_angle.png "Non-Zero Pivot Angle"
+[zero_pivot_angle]: https://raw.githubusercontent.com/EdCarney/AzElMaskGeneration/master/images/zero_pivot_angle.png "Zero Pivot Angle"
+[nonzero_pivot_angle]: https://raw.githubusercontent.com/EdCarney/AzElMaskGeneration/master/images/nonzero_pivot_angle.png "Non-Zero Pivot Angle"
